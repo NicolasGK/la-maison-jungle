@@ -5,7 +5,7 @@ import Cart from './Cart'
 import Footer from './Footer'
 import ShoppingList from './ShoppingList'
 import '../styles/Layout.css'
-import { Analytics } from '@vercel/analytics/react'
+
 
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
 				<ShoppingList cart={cart} updateCart={updateCart} />
 			</div>
 			<Footer />
-			<Analytics />
 		</div>
 	)
 }
